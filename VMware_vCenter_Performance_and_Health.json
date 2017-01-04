@@ -1,0 +1,2782 @@
+{
+   "localization": {"group": {
+      "de": [
+         {
+            "value": "vSphere-Dashboards",
+            "key": "vSphere Dashboards"
+         },
+         {
+            "value": "vSphere-Konfiguration",
+            "key": "vSphere Configuration"
+         }
+      ],
+      "ko": [
+         {
+            "value": "vSphere 대시보드",
+            "key": "vSphere Dashboards"
+         },
+         {
+            "value": "vSphere 구성",
+            "key": "vSphere Configuration"
+         }
+      ],
+      "zh-TW": [
+         {
+            "value": "vSphere 儀表板",
+            "key": "vSphere Dashboards"
+         },
+         {
+            "value": "vSphere 組態",
+            "key": "vSphere Configuration"
+         }
+      ],
+      "ja": [
+         {
+            "value": "vSphere ダッシュボード",
+            "key": "vSphere Dashboards"
+         },
+         {
+            "value": "vSphere の構成",
+            "key": "vSphere Configuration"
+         }
+      ],
+      "en": [
+         {
+            "value": "vSphere Dashboards",
+            "key": "vSphere Dashboards"
+         },
+         {
+            "value": "vSphere Configuration",
+            "key": "vSphere Configuration"
+         }
+      ],
+      "fr": [
+         {
+            "value": "Tableaux de bord vSphere",
+            "key": "vSphere Dashboards"
+         },
+         {
+            "value": "Configuration vSphere",
+            "key": "vSphere Configuration"
+         }
+      ],
+      "zh-CN": [
+         {
+            "value": "vSphere 仪表板",
+            "key": "vSphere Dashboards"
+         },
+         {
+            "value": "vSphere 配置",
+            "key": "vSphere Configuration"
+         }
+      ]
+   }},
+   "entries": {
+      "resourceKind": [
+         {
+            "resourceKindKey": "HostSystem",
+            "internalId": "resourceKind:id:1_::_",
+            "adapterKindKey": "VMWARE"
+         },
+         {
+            "resourceKindKey": "ClusterComputeResource",
+            "internalId": "resourceKind:id:0_::_",
+            "adapterKindKey": "VMWARE"
+         }
+      ],
+      "resource": [
+         {
+            "resourceKindKey": "ClusterComputeResource",
+            "internalId": "resource:id:4_::_",
+            "adapterKindKey": "VMWARE",
+            "identifiers": [
+               {
+                  "value": "domain-c31",
+                  "key": "VMEntityObjectID"
+               },
+               {
+                  "value": "52D25AE8-AA32-4F5C-9B6E-032BBB5E1B8F",
+                  "key": "VMEntityVCID"
+               }
+            ],
+            "name": "Compellent Environment"
+         },
+         {
+            "resourceKindKey": "ClusterComputeResource",
+            "internalId": "resource:id:2_::_",
+            "adapterKindKey": "VMWARE",
+            "identifiers": [
+               {
+                  "value": "domain-c2493",
+                  "key": "VMEntityObjectID"
+               },
+               {
+                  "value": "52D25AE8-AA32-4F5C-9B6E-032BBB5E1B8F",
+                  "key": "VMEntityVCID"
+               }
+            ],
+            "name": "Compellent R810"
+         },
+         {
+            "resourceKindKey": "ClusterComputeResource",
+            "internalId": "resource:id:5_::_",
+            "adapterKindKey": "VMWARE",
+            "identifiers": [
+               {
+                  "value": "domain-c3609",
+                  "key": "VMEntityObjectID"
+               },
+               {
+                  "value": "52D25AE8-AA32-4F5C-9B6E-032BBB5E1B8F",
+                  "key": "VMEntityVCID"
+               }
+            ],
+            "name": "Compellent UCS-3"
+         },
+         {
+            "resourceKindKey": "ClusterComputeResource",
+            "internalId": "resource:id:0_::_",
+            "adapterKindKey": "VMWARE",
+            "identifiers": [
+               {
+                  "value": "domain-c2081",
+                  "key": "VMEntityObjectID"
+               },
+               {
+                  "value": "52D25AE8-AA32-4F5C-9B6E-032BBB5E1B8F",
+                  "key": "VMEntityVCID"
+               }
+            ],
+            "name": "Compellent UCS"
+         },
+         {
+            "resourceKindKey": "ClusterComputeResource",
+            "internalId": "resource:id:1_::_",
+            "adapterKindKey": "VMWARE",
+            "identifiers": [
+               {
+                  "value": "domain-c3137",
+                  "key": "VMEntityObjectID"
+               },
+               {
+                  "value": "52D25AE8-AA32-4F5C-9B6E-032BBB5E1B8F",
+                  "key": "VMEntityVCID"
+               }
+            ],
+            "name": "Compellent UCS-2"
+         },
+         {
+            "resourceKindKey": "ClusterComputeResource",
+            "internalId": "resource:id:3_::_",
+            "adapterKindKey": "VMWARE",
+            "identifiers": [
+               {
+                  "value": "domain-c2787",
+                  "key": "VMEntityObjectID"
+               },
+               {
+                  "value": "52D25AE8-AA32-4F5C-9B6E-032BBB5E1B8F",
+                  "key": "VMEntityVCID"
+               }
+            ],
+            "name": "Compellent R810-2"
+         }
+      ]
+   },
+   "dashboards": [
+      {
+         "autoswitchTabId": "cfbe9095-6ffc-4319-966e-c6717aedf5e8",
+         "shared": false,
+         "temporary": false,
+         "creationTime": 1444736641698,
+         "autoswitchEnabled": true,
+         "importAttempts": 1,
+         "columnProportion": "0.5-0.5",
+         "importComplete": true,
+         "columnCount": 2,
+         "widgets": [
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 2,
+               "id": "940ddbc8-6f7d-42b5-be87-3323a734aef3",
+               "type": "Scoreboard",
+               "title": "CPU: Scoreboard",
+               "config": {
+                  "visualTheme": {"visualTheme": false},
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "valueSize": 48,
+                  "title": "CPU: Scoreboard",
+                  "boxHeight": null,
+                  "showResourceName": {"showResourceName": true},
+                  "roundDecimals": null,
+                  "undefined": {"showMetricUnit": true},
+                  "mode": {"layoutMode": "fixedView"},
+                  "labelSize": 24,
+                  "metric": {
+                     "mode": "resource",
+                     "resourceMetrics": [
+                        {
+                           "yellowBound": "2",
+                           "metricUnitId": -1,
+                           "resourceId": "resource:id:0_::_",
+                           "metricName": "CPU|CPU Contention",
+                           "metricKey": "cpu|capacity_contentionPct",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent UCS",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Contention",
+                           "orangeBound": "4",
+                           "unit": "%",
+                           "redBound": "6",
+                           "id": "extModel1720-1",
+                           "colorMethod": 0
+                        },
+                        {
+                           "yellowBound": "70",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:0_::_",
+                           "metricName": "CPU|Workload",
+                           "metricKey": "cpu|workload",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent UCS",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Workload",
+                           "orangeBound": "80",
+                           "unit": "%",
+                           "redBound": "90",
+                           "id": "extModel1720-2",
+                           "colorMethod": 0
+                        }
+                     ],
+                     "resourceKindMetrics": []
+                  },
+                  "showSparkline": {"showSparkline": true},
+                  "boxColumns": 2,
+                  "periodLength": "lastHour",
+                  "selfProvider": {"selfProvider": true},
+                  "resInteractionMode": null
+               },
+               "height": 247
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 2,
+               "id": "c2d15e3b-433a-4006-8a3d-7b65ad8e99b2",
+               "type": "Scoreboard",
+               "title": "RAM: Scoreboard",
+               "config": {
+                  "visualTheme": {"visualTheme": false},
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "valueSize": 48,
+                  "title": "RAM: Scoreboard",
+                  "boxHeight": null,
+                  "showResourceName": {"showResourceName": true},
+                  "roundDecimals": null,
+                  "undefined": {"showMetricUnit": true},
+                  "mode": {"layoutMode": "fixedView"},
+                  "labelSize": 24,
+                  "metric": {
+                     "mode": "resource",
+                     "resourceMetrics": [
+                        {
+                           "yellowBound": "2",
+                           "metricUnitId": -1,
+                           "resourceId": "resource:id:0_::_",
+                           "metricName": "Memory|Contention",
+                           "metricKey": "mem|host_contentionPct",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent UCS",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Contention",
+                           "orangeBound": "4",
+                           "unit": "%",
+                           "redBound": "6",
+                           "id": "extModel2096-1",
+                           "colorMethod": 0
+                        },
+                        {
+                           "yellowBound": "70",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:0_::_",
+                           "metricName": "Memory|Workload",
+                           "metricKey": "mem|workload",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent UCS",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Workload",
+                           "orangeBound": "80",
+                           "unit": "%",
+                           "redBound": "90",
+                           "id": "extModel2096-2",
+                           "colorMethod": 0
+                        }
+                     ],
+                     "resourceKindMetrics": []
+                  },
+                  "showSparkline": {"showSparkline": true},
+                  "boxColumns": 2,
+                  "periodLength": "lastHour",
+                  "selfProvider": {"selfProvider": true},
+                  "resInteractionMode": null
+               },
+               "height": 247
+            },
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 1,
+               "id": "803f85e9-9921-4549-89b1-911a3d5a3e99",
+               "type": "MetricChart",
+               "title": "CPU: Demand",
+               "config": {
+                  "resourceMetrics": [{
+                     "metricUnitId": "percent",
+                     "resourceId": "resource:id:0_::_",
+                     "unit": "%",
+                     "metricName": "CPU|Demand",
+                     "metricKey": "cpu|demandPct",
+                     "resourceName": "Compellent UCS",
+                     "resourceKindId": "002006VMWAREClusterComputeResource",
+                     "id": "extModel1215-1",
+                     "colorMethod": 1
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "selfProvider": {"selfProvider": true},
+                  "title": "CPU: Demand",
+                  "resInteractionMode": null
+               },
+               "height": 294,
+               "states": [
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "o%3A",
+                     "key": "permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_zoomTheView_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_stackedGraph_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_showDataPointTips_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_dynamicThresholds_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_pan_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_showDataValues_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_metricGraph_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomByY_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_showEntirePeriodDynamicThresholds_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_anomalies_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_limitYRangeToDt_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_yAxis_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D",
+                     "key": "permDateRange1_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_trendLine_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_splitGraphs_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_803f85e9-9921-4549-89b1-911a3d5a3e99"
+                  }
+               ]
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 1,
+               "id": "06595d12-65bc-42b5-ac7f-7b82db7e7122",
+               "type": "MetricChart",
+               "title": "RAM: Consumed",
+               "config": {
+                  "resourceMetrics": [{
+                     "metricUnitId": "kb",
+                     "resourceId": "resource:id:0_::_",
+                     "unit": "KB",
+                     "metricName": "Memory|Consumed",
+                     "metricKey": "mem|consumed_average",
+                     "resourceName": "Compellent UCS",
+                     "resourceKindId": "002006VMWAREClusterComputeResource",
+                     "id": "extModel1449-1",
+                     "colorMethod": 1
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "selfProvider": {"selfProvider": true},
+                  "title": "RAM: Consumed",
+                  "resInteractionMode": null
+               },
+               "height": 294,
+               "states": [
+                  {
+                     "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D",
+                     "key": "permDateRange1_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_06595d12-65bc-42b5-ac7f-7b82db7e7122"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_splitGraphs_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_06595d12-65bc-42b5-ac7f-7b82db7e7122"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_pan_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_06595d12-65bc-42b5-ac7f-7b82db7e7122"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_stackedGraph_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_06595d12-65bc-42b5-ac7f-7b82db7e7122"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_06595d12-65bc-42b5-ac7f-7b82db7e7122"
+                  },
+                  {
+                     "value": "o%3A",
+                     "key": "permMetricChart_widget_f034202b-077b-4b87-b784-53ea158bed8a_06595d12-65bc-42b5-ac7f-7b82db7e7122"
+                  }
+               ]
+            },
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 3,
+               "id": "a44a4dd1-8958-4f41-b856-3efce58c26df",
+               "type": "Heatmap",
+               "title": "Heatmap: CPU Demand Distribution",
+               "config": {
+                  "configs": [{
+                     "mode": {"mode": false},
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "tagFilter": {
+                        "path": ["/source/kind_resourceKind:id:0_::_/tag:resource:id:0_::_"],
+                        "value": {
+                           "bus": [],
+                           "adapterKind": [],
+                           "kind": [],
+                           "exclaim": false,
+                           "healthRange": [],
+                           "maintenanceSchedule": [],
+                           "adapterInstance": [],
+                           "collector": [],
+                           "tier": [],
+                           "state": [],
+                           "tag": [["resource:id:0_::_"]],
+                           "day": [],
+                           "status": []
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "cpu|demandPct",
+                        "value": "CPU|Demand"
+                     },
+                     "color": {
+                        "middleColor": "888800",
+                        "minValue": "0",
+                        "endColor": "FF0000",
+                        "maxValue": "85",
+                        "startColor": "00FF00"
+                     },
+                     "sizeBy": {
+                        "metricKey": "hardware|cpuInfo|num_CpuCores",
+                        "value": "Hardware|CPU Information|Number of CPUs"
+                     },
+                     "relationalGrouping": false,
+                     "name": "CPU: Demand Distribution",
+                     "groupBy": {
+                        "originalText": "",
+                        "typeId": "resourceKind:id:1_::_",
+                        "id": "004null002006VMWAREHostSystem",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "parentText": "vCenter Adapter",
+                        "parentId": "VMWARE"
+                     },
+                     "attributeKind": {"value": ""},
+                     "thenBy": null
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "title": "Heatmap: CPU Demand Distribution",
+                  "value": 0
+               },
+               "height": 300
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 3,
+               "id": "3a320dd4-3755-4751-b0e5-e211d4e22441",
+               "type": "Heatmap",
+               "title": "RAM: Demand Distribution",
+               "config": {
+                  "configs": [{
+                     "mode": {"mode": false},
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "tagFilter": {
+                        "path": ["/source/kind_resourceKind:id:0_::_/tag:resource:id:0_::_"],
+                        "value": {
+                           "bus": [],
+                           "adapterKind": [],
+                           "kind": [],
+                           "exclaim": false,
+                           "healthRange": [],
+                           "maintenanceSchedule": [],
+                           "adapterInstance": [],
+                           "collector": [],
+                           "tier": [],
+                           "state": [],
+                           "tag": [["resource:id:0_::_"]],
+                           "day": [],
+                           "status": []
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "mem|demand|object.demand.percent",
+                        "value": "Memory|Demand|Effective Demand"
+                     },
+                     "color": {
+                        "middleColor": "888800",
+                        "minValue": "0",
+                        "endColor": "FF0000",
+                        "maxValue": "85",
+                        "startColor": "00FF00"
+                     },
+                     "sizeBy": {
+                        "metricKey": "mem|demand|actual.capacity.normalized",
+                        "value": "Memory|Demand|Total Capacity"
+                     },
+                     "relationalGrouping": false,
+                     "name": "RAM: Demand Distribution",
+                     "groupBy": {
+                        "originalText": "",
+                        "typeId": "resourceKind:id:1_::_",
+                        "id": "004null002006VMWAREHostSystem",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "parentText": "vCenter Adapter",
+                        "parentId": "VMWARE"
+                     },
+                     "attributeKind": {"value": ""},
+                     "thenBy": null
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "title": "RAM: Demand Distribution",
+                  "value": 0
+               },
+               "height": 300
+            }
+         ],
+         "userId": "67309106-99e9-4323-abf9-70b4b92e4ba3",
+         "autoswitchDelay": 300,
+         "isDefault": false,
+         "name": "comScore cluster: UCS",
+         "rank": 15,
+         "disabled": false,
+         "id": "f034202b-077b-4b87-b784-53ea158bed8a",
+         "locked": false,
+         "widgetInteractions": []
+      },
+      {
+         "autoswitchTabId": "0331245d-a913-4ee4-9153-e811778890fd",
+         "shared": false,
+         "temporary": false,
+         "creationTime": 1444736641698,
+         "autoswitchEnabled": true,
+         "importAttempts": 1,
+         "columnProportion": "0.5-0.5",
+         "importComplete": true,
+         "columnCount": 2,
+         "widgets": [
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 2,
+               "id": "24588471-ab5c-4a4b-8b0f-1748a7d6ca29",
+               "type": "Scoreboard",
+               "title": "CPU: Scoreboard",
+               "config": {
+                  "visualTheme": {"visualTheme": false},
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "valueSize": 48,
+                  "title": "CPU: Scoreboard",
+                  "boxHeight": null,
+                  "showResourceName": {"showResourceName": true},
+                  "roundDecimals": null,
+                  "undefined": {"showMetricUnit": true},
+                  "mode": {"layoutMode": "fixedView"},
+                  "labelSize": 24,
+                  "metric": {
+                     "mode": "resource",
+                     "resourceMetrics": [
+                        {
+                           "yellowBound": "2",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:1_::_",
+                           "metricName": "CPU|CPU Contention",
+                           "metricKey": "cpu|capacity_contentionPct",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent UCS-2",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Contention",
+                           "orangeBound": "4",
+                           "unit": "%",
+                           "redBound": "6",
+                           "id": "extModel2441-1",
+                           "colorMethod": 0
+                        },
+                        {
+                           "yellowBound": "70",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:1_::_",
+                           "metricName": "CPU|Workload",
+                           "metricKey": "cpu|workload",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent UCS-2",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Workload",
+                           "orangeBound": "80",
+                           "unit": "%",
+                           "redBound": "90",
+                           "id": "extModel2441-2",
+                           "colorMethod": 0
+                        }
+                     ],
+                     "resourceKindMetrics": []
+                  },
+                  "showSparkline": {"showSparkline": true},
+                  "boxColumns": 2,
+                  "periodLength": "lastHour",
+                  "selfProvider": {"selfProvider": true},
+                  "resInteractionMode": null
+               },
+               "height": 247
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 2,
+               "id": "d94cf3eb-b357-4551-8e10-27ab90807efb",
+               "type": "Scoreboard",
+               "title": "RAM: Scoreboard",
+               "config": {
+                  "visualTheme": {"visualTheme": false},
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "valueSize": 48,
+                  "title": "RAM: Scoreboard",
+                  "boxHeight": null,
+                  "showResourceName": {"showResourceName": true},
+                  "roundDecimals": null,
+                  "undefined": {"showMetricUnit": true},
+                  "mode": {"layoutMode": "fixedView"},
+                  "labelSize": 24,
+                  "metric": {
+                     "mode": "resource",
+                     "resourceMetrics": [
+                        {
+                           "yellowBound": "2",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:1_::_",
+                           "metricName": "Memory|Contention",
+                           "metricKey": "mem|host_contentionPct",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent UCS-2",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Contention",
+                           "orangeBound": "4",
+                           "unit": "%",
+                           "redBound": "6",
+                           "id": "extModel2817-1",
+                           "colorMethod": 0
+                        },
+                        {
+                           "yellowBound": "70",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:1_::_",
+                           "metricName": "Memory|Workload",
+                           "metricKey": "mem|workload",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent UCS-2",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Workload",
+                           "orangeBound": "80",
+                           "unit": "%",
+                           "redBound": "90",
+                           "id": "extModel2817-2",
+                           "colorMethod": 0
+                        }
+                     ],
+                     "resourceKindMetrics": []
+                  },
+                  "showSparkline": {"showSparkline": true},
+                  "boxColumns": 2,
+                  "periodLength": "lastHour",
+                  "selfProvider": {"selfProvider": true},
+                  "resInteractionMode": null
+               },
+               "height": 247
+            },
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 1,
+               "id": "90dbf239-78e4-49c6-9ca7-59a1192a623e",
+               "type": "MetricChart",
+               "title": "CPU: Demand",
+               "config": {
+                  "resourceMetrics": [{
+                     "metricUnitId": "percent",
+                     "resourceId": "resource:id:1_::_",
+                     "unit": "%",
+                     "metricName": "CPU|Demand",
+                     "metricKey": "cpu|demandPct",
+                     "resourceName": "Compellent UCS-2",
+                     "resourceKindId": "002006VMWAREClusterComputeResource",
+                     "id": "extModel1912-1",
+                     "colorMethod": 1
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "selfProvider": {"selfProvider": true},
+                  "title": "CPU: Demand",
+                  "resInteractionMode": null
+               },
+               "height": 294,
+               "states": [
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomByY_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_dynamicThresholds_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_showEntirePeriodDynamicThresholds_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_stackedGraph_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "o%3A",
+                     "key": "permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_metricGraph_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_yAxis_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_showDataPointTips_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_trendLine_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_limitYRangeToDt_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_pan_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_splitGraphs_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_showDataValues_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_zoomTheView_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  },
+                  {
+                     "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D",
+                     "key": "permDateRange1_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_90dbf239-78e4-49c6-9ca7-59a1192a623e"
+                  }
+               ]
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 1,
+               "id": "fb881127-2c7b-44b1-88a3-c23a4246427c",
+               "type": "MetricChart",
+               "title": "RAM: Consumed",
+               "config": {
+                  "resourceMetrics": [{
+                     "metricUnitId": "kb",
+                     "resourceId": "resource:id:1_::_",
+                     "unit": "KB",
+                     "metricName": "Memory|Consumed",
+                     "metricKey": "mem|consumed_average",
+                     "resourceName": "Compellent UCS-2",
+                     "resourceKindId": "002006VMWAREClusterComputeResource",
+                     "id": "extModel2170-1",
+                     "colorMethod": 1
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "selfProvider": {"selfProvider": true},
+                  "title": "RAM: Consumed",
+                  "resInteractionMode": null
+               },
+               "height": 294,
+               "states": [
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_stackedGraph_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_fb881127-2c7b-44b1-88a3-c23a4246427c"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_fb881127-2c7b-44b1-88a3-c23a4246427c"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_pan_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_fb881127-2c7b-44b1-88a3-c23a4246427c"
+                  },
+                  {
+                     "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D",
+                     "key": "permDateRange1_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_fb881127-2c7b-44b1-88a3-c23a4246427c"
+                  },
+                  {
+                     "value": "o%3A",
+                     "key": "permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_fb881127-2c7b-44b1-88a3-c23a4246427c"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_splitGraphs_permMetricChart_widget_cfbe9095-6ffc-4319-966e-c6717aedf5e8_fb881127-2c7b-44b1-88a3-c23a4246427c"
+                  }
+               ]
+            },
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 3,
+               "id": "e792763d-fc86-4bf9-9e6d-bc2ef55cd93a",
+               "type": "Heatmap",
+               "title": "Heatmap: CPU Demand Distribution",
+               "config": {
+                  "configs": [{
+                     "mode": {"mode": false},
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "tagFilter": {
+                        "path": ["/source/kind_resourceKind:id:0_::_/tag:resource:id:1_::_"],
+                        "value": {
+                           "bus": [],
+                           "adapterKind": [],
+                           "kind": [],
+                           "exclaim": false,
+                           "healthRange": [],
+                           "maintenanceSchedule": [],
+                           "adapterInstance": [],
+                           "collector": [],
+                           "tier": [],
+                           "state": [],
+                           "tag": [["resource:id:1_::_"]],
+                           "day": [],
+                           "status": []
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "cpu|demandPct",
+                        "value": "CPU|Demand"
+                     },
+                     "color": {
+                        "middleColor": "888800",
+                        "minValue": "0",
+                        "endColor": "FF0000",
+                        "maxValue": "85",
+                        "startColor": "00FF00"
+                     },
+                     "sizeBy": {
+                        "metricKey": "hardware|cpuInfo|num_CpuCores",
+                        "value": "Hardware|CPU Information|Number of CPUs"
+                     },
+                     "relationalGrouping": false,
+                     "name": "CPU: Demand Distribution",
+                     "groupBy": {
+                        "originalText": "",
+                        "typeId": "resourceKind:id:1_::_",
+                        "id": "004null002006VMWAREHostSystem",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "parentText": "vCenter Adapter",
+                        "parentId": "VMWARE"
+                     },
+                     "attributeKind": {"value": ""},
+                     "thenBy": null
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "title": "Heatmap: CPU Demand Distribution",
+                  "value": 0
+               },
+               "height": 300
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 3,
+               "id": "ced09905-dbdf-4203-ac62-3266ac6ba4e1",
+               "type": "Heatmap",
+               "title": "RAM: Demand Distribution",
+               "config": {
+                  "configs": [{
+                     "mode": {"mode": false},
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "tagFilter": {
+                        "path": ["/source/kind_resourceKind:id:0_::_/tag:resource:id:1_::_"],
+                        "value": {
+                           "bus": [],
+                           "adapterKind": [],
+                           "kind": [],
+                           "exclaim": false,
+                           "healthRange": [],
+                           "maintenanceSchedule": [],
+                           "adapterInstance": [],
+                           "collector": [],
+                           "tier": [],
+                           "state": [],
+                           "tag": [["resource:id:1_::_"]],
+                           "day": [],
+                           "status": []
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "mem|demand|object.demand.percent",
+                        "value": "Memory|Demand|Effective Demand"
+                     },
+                     "color": {
+                        "middleColor": "888800",
+                        "minValue": "0",
+                        "endColor": "FF0000",
+                        "maxValue": "85",
+                        "startColor": "00FF00"
+                     },
+                     "sizeBy": {
+                        "metricKey": "mem|demand|actual.capacity.normalized",
+                        "value": "Memory|Demand|Total Capacity"
+                     },
+                     "relationalGrouping": false,
+                     "name": "RAM: Demand Distribution",
+                     "groupBy": {
+                        "originalText": "",
+                        "typeId": "resourceKind:id:1_::_",
+                        "id": "004null002006VMWAREHostSystem",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "parentText": "vCenter Adapter",
+                        "parentId": "VMWARE"
+                     },
+                     "attributeKind": {"value": ""},
+                     "thenBy": null
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "title": "RAM: Demand Distribution",
+                  "value": 0
+               },
+               "height": 300
+            }
+         ],
+         "userId": "67309106-99e9-4323-abf9-70b4b92e4ba3",
+         "autoswitchDelay": 300,
+         "isDefault": false,
+         "name": "comScore cluster: UCS-2",
+         "rank": 16,
+         "disabled": false,
+         "id": "cfbe9095-6ffc-4319-966e-c6717aedf5e8",
+         "locked": false,
+         "widgetInteractions": []
+      },
+      {
+         "autoswitchTabId": "0723d49f-00f0-4fc2-9ead-22ac688899b3",
+         "shared": false,
+         "temporary": false,
+         "creationTime": 1444736641698,
+         "autoswitchEnabled": true,
+         "importAttempts": 1,
+         "columnProportion": "0.5-0.5",
+         "importComplete": true,
+         "columnCount": 2,
+         "widgets": [
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 2,
+               "id": "bd7040c3-d5f3-4838-8267-264f9171ce28",
+               "type": "Scoreboard",
+               "title": "CPU: Scoreboard",
+               "config": {
+                  "visualTheme": {"visualTheme": false},
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "valueSize": 48,
+                  "title": "CPU: Scoreboard",
+                  "boxHeight": null,
+                  "showResourceName": {"showResourceName": true},
+                  "roundDecimals": null,
+                  "undefined": {"showMetricUnit": true},
+                  "mode": {"layoutMode": "fixedView"},
+                  "labelSize": 24,
+                  "metric": {
+                     "mode": "resource",
+                     "resourceMetrics": [
+                        {
+                           "yellowBound": "2",
+                           "metricUnitId": -1,
+                           "resourceId": "resource:id:2_::_",
+                           "metricName": "CPU|CPU Contention",
+                           "metricKey": "cpu|capacity_contentionPct",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent R810",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Contention",
+                           "orangeBound": "4",
+                           "unit": "%",
+                           "redBound": "6",
+                           "id": "extModel4295-1",
+                           "colorMethod": 0
+                        },
+                        {
+                           "yellowBound": "70",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:2_::_",
+                           "metricName": "CPU|Workload",
+                           "metricKey": "cpu|workload",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent R810",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Workload",
+                           "orangeBound": "80",
+                           "unit": "%",
+                           "redBound": "90",
+                           "id": "extModel4295-2",
+                           "colorMethod": 0
+                        }
+                     ],
+                     "resourceKindMetrics": []
+                  },
+                  "showSparkline": {"showSparkline": true},
+                  "boxColumns": 2,
+                  "periodLength": "lastHour",
+                  "selfProvider": {"selfProvider": true},
+                  "resInteractionMode": null
+               },
+               "height": 247
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 2,
+               "id": "16756a52-e6f2-4d51-989c-e032781b592f",
+               "type": "Scoreboard",
+               "title": "RAM: Scoreboard",
+               "config": {
+                  "visualTheme": {"visualTheme": false},
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "valueSize": 48,
+                  "title": "RAM: Scoreboard",
+                  "boxHeight": null,
+                  "showResourceName": {"showResourceName": true},
+                  "roundDecimals": null,
+                  "undefined": {"showMetricUnit": true},
+                  "mode": {"layoutMode": "fixedView"},
+                  "labelSize": 24,
+                  "metric": {
+                     "mode": "resource",
+                     "resourceMetrics": [
+                        {
+                           "yellowBound": "2",
+                           "metricUnitId": -1,
+                           "resourceId": "resource:id:2_::_",
+                           "metricName": "Memory|Contention",
+                           "metricKey": "mem|host_contentionPct",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent R810",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Contention",
+                           "orangeBound": "4",
+                           "unit": "%",
+                           "redBound": "6",
+                           "id": "extModel4671-1",
+                           "colorMethod": 0
+                        },
+                        {
+                           "yellowBound": "70",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:2_::_",
+                           "metricName": "Memory|Workload",
+                           "metricKey": "mem|workload",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent R810",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Workload",
+                           "orangeBound": "80",
+                           "unit": "%",
+                           "redBound": "90",
+                           "id": "extModel4671-2",
+                           "colorMethod": 0
+                        }
+                     ],
+                     "resourceKindMetrics": []
+                  },
+                  "showSparkline": {"showSparkline": true},
+                  "boxColumns": 2,
+                  "periodLength": "lastHour",
+                  "selfProvider": {"selfProvider": true},
+                  "resInteractionMode": null
+               },
+               "height": 247
+            },
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 1,
+               "id": "c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0",
+               "type": "MetricChart",
+               "title": "CPU: Demand",
+               "config": {
+                  "resourceMetrics": [{
+                     "metricUnitId": "percent",
+                     "resourceId": "resource:id:2_::_",
+                     "unit": "%",
+                     "metricName": "CPU|Demand",
+                     "metricKey": "cpu|demandPct",
+                     "resourceName": "Compellent R810",
+                     "resourceKindId": "002006VMWAREClusterComputeResource",
+                     "id": "extModel3790-1",
+                     "colorMethod": 1
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "selfProvider": {"selfProvider": true},
+                  "title": "CPU: Demand",
+                  "resInteractionMode": null
+               },
+               "height": 294,
+               "states": [
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_yAxis_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_stackedGraph_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_splitGraphs_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_limitYRangeToDt_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_dynamicThresholds_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_showEntirePeriodDynamicThresholds_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomByY_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_metricGraph_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "o%3A",
+                     "key": "permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_zoomTheView_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_showDataPointTips_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_trendLine_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_showDataValues_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_pan_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  },
+                  {
+                     "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D",
+                     "key": "permDateRange1_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c8e1a51f-5559-4ed0-a32f-ec6d7fcab7b0"
+                  }
+               ]
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 1,
+               "id": "c1e0c101-c183-4279-a207-381a5a868e09",
+               "type": "MetricChart",
+               "title": "RAM: Consumed",
+               "config": {
+                  "resourceMetrics": [{
+                     "metricUnitId": "kb",
+                     "resourceId": "resource:id:2_::_",
+                     "unit": "KB",
+                     "metricName": "Memory|Consumed",
+                     "metricKey": "mem|consumed_average",
+                     "resourceName": "Compellent R810",
+                     "resourceKindId": "002006VMWAREClusterComputeResource",
+                     "id": "extModel4024-1",
+                     "colorMethod": 1
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "selfProvider": {"selfProvider": true},
+                  "title": "RAM: Consumed",
+                  "resInteractionMode": null
+               },
+               "height": 294,
+               "states": [
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_pan_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c1e0c101-c183-4279-a207-381a5a868e09"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c1e0c101-c183-4279-a207-381a5a868e09"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_splitGraphs_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c1e0c101-c183-4279-a207-381a5a868e09"
+                  },
+                  {
+                     "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D",
+                     "key": "permDateRange1_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c1e0c101-c183-4279-a207-381a5a868e09"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_stackedGraph_permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c1e0c101-c183-4279-a207-381a5a868e09"
+                  },
+                  {
+                     "value": "o%3A",
+                     "key": "permMetricChart_widget_0331245d-a913-4ee4-9153-e811778890fd_c1e0c101-c183-4279-a207-381a5a868e09"
+                  }
+               ]
+            },
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 3,
+               "id": "a0c44892-8f80-434d-aaf3-650793d8aef9",
+               "type": "Heatmap",
+               "title": "Heatmap: CPU Demand Distribution",
+               "config": {
+                  "configs": [{
+                     "mode": {"mode": false},
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "tagFilter": {
+                        "path": ["/source/kind_resourceKind:id:0_::_/tag:resource:id:2_::_"],
+                        "value": {
+                           "bus": [],
+                           "adapterKind": [],
+                           "kind": [],
+                           "exclaim": false,
+                           "healthRange": [],
+                           "maintenanceSchedule": [],
+                           "adapterInstance": [],
+                           "collector": [],
+                           "tier": [],
+                           "state": [],
+                           "tag": [["resource:id:2_::_"]],
+                           "day": [],
+                           "status": []
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "cpu|demandPct",
+                        "value": "CPU|Demand"
+                     },
+                     "color": {
+                        "middleColor": "888800",
+                        "minValue": "0",
+                        "endColor": "FF0000",
+                        "maxValue": "85",
+                        "startColor": "00FF00"
+                     },
+                     "sizeBy": {
+                        "metricKey": "hardware|cpuInfo|num_CpuCores",
+                        "value": "Hardware|CPU Information|Number of CPUs"
+                     },
+                     "relationalGrouping": false,
+                     "name": "CPU: Demand Distribution",
+                     "groupBy": {
+                        "originalText": "",
+                        "typeId": "resourceKind:id:1_::_",
+                        "id": "004null002006VMWAREHostSystem",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "parentText": "vCenter Adapter",
+                        "parentId": "VMWARE"
+                     },
+                     "attributeKind": {"value": ""},
+                     "thenBy": null
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "title": "Heatmap: CPU Demand Distribution",
+                  "value": 0
+               },
+               "height": 300
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 3,
+               "id": "21721443-629d-4c77-a1e5-7f05134a826f",
+               "type": "Heatmap",
+               "title": "RAM: Demand Distribution",
+               "config": {
+                  "configs": [{
+                     "mode": {"mode": false},
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "tagFilter": {
+                        "path": ["/source/kind_resourceKind:id:0_::_/tag:resource:id:2_::_"],
+                        "value": {
+                           "bus": [],
+                           "adapterKind": [],
+                           "kind": [],
+                           "exclaim": false,
+                           "healthRange": [],
+                           "maintenanceSchedule": [],
+                           "adapterInstance": [],
+                           "collector": [],
+                           "tier": [],
+                           "state": [],
+                           "tag": [["resource:id:2_::_"]],
+                           "day": [],
+                           "status": []
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "mem|demand|object.demand.percent",
+                        "value": "Memory|Demand|Effective Demand"
+                     },
+                     "color": {
+                        "middleColor": "888800",
+                        "minValue": "0",
+                        "endColor": "FF0000",
+                        "maxValue": "85",
+                        "startColor": "00FF00"
+                     },
+                     "sizeBy": {
+                        "metricKey": "mem|demand|actual.capacity.normalized",
+                        "value": "Memory|Demand|Total Capacity"
+                     },
+                     "relationalGrouping": false,
+                     "name": "RAM: Demand Distribution",
+                     "groupBy": {
+                        "originalText": "",
+                        "typeId": "resourceKind:id:1_::_",
+                        "id": "004null002006VMWAREHostSystem",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "parentText": "vCenter Adapter",
+                        "parentId": "VMWARE"
+                     },
+                     "attributeKind": {"value": ""},
+                     "thenBy": null
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "title": "RAM: Demand Distribution",
+                  "value": 0
+               },
+               "height": 300
+            }
+         ],
+         "userId": "67309106-99e9-4323-abf9-70b4b92e4ba3",
+         "autoswitchDelay": 300,
+         "isDefault": false,
+         "name": "comScore cluster: R810",
+         "rank": 17,
+         "disabled": false,
+         "id": "0331245d-a913-4ee4-9153-e811778890fd",
+         "locked": false,
+         "widgetInteractions": []
+      },
+      {
+         "autoswitchTabId": "3bffc2b2-368c-41b1-b96b-4721d7bb1309",
+         "shared": false,
+         "temporary": false,
+         "creationTime": 1444736641698,
+         "autoswitchEnabled": true,
+         "importAttempts": 1,
+         "columnProportion": "0.5-0.5",
+         "importComplete": true,
+         "columnCount": 2,
+         "widgets": [
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 2,
+               "id": "565b036b-3651-485b-bffe-5e666c0a81fe",
+               "type": "Scoreboard",
+               "title": "CPU: Scoreboard",
+               "config": {
+                  "visualTheme": {"visualTheme": false},
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "valueSize": 48,
+                  "title": "CPU: Scoreboard",
+                  "boxHeight": null,
+                  "showResourceName": {"showResourceName": true},
+                  "roundDecimals": null,
+                  "undefined": {"showMetricUnit": true},
+                  "mode": {"layoutMode": "fixedView"},
+                  "labelSize": 24,
+                  "metric": {
+                     "mode": "resource",
+                     "resourceMetrics": [
+                        {
+                           "yellowBound": "2",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:3_::_",
+                           "metricName": "CPU|CPU Contention",
+                           "metricKey": "cpu|capacity_contentionPct",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent R810-2",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Contention",
+                           "orangeBound": "4",
+                           "unit": "%",
+                           "redBound": "6",
+                           "id": "extModel3716-1",
+                           "colorMethod": 0
+                        },
+                        {
+                           "yellowBound": "70",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:3_::_",
+                           "metricName": "CPU|Workload",
+                           "metricKey": "cpu|workload",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent R810-2",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Workload",
+                           "orangeBound": "80",
+                           "unit": "%",
+                           "redBound": "90",
+                           "id": "extModel3716-2",
+                           "colorMethod": 0
+                        }
+                     ],
+                     "resourceKindMetrics": []
+                  },
+                  "showSparkline": {"showSparkline": true},
+                  "boxColumns": 2,
+                  "periodLength": "lastHour",
+                  "selfProvider": {"selfProvider": true},
+                  "resInteractionMode": null
+               },
+               "height": 247
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 2,
+               "id": "2e623579-f9cd-4473-aa1c-ebdb21fe71fa",
+               "type": "Scoreboard",
+               "title": "RAM: Scoreboard",
+               "config": {
+                  "visualTheme": {"visualTheme": false},
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "valueSize": 48,
+                  "title": "RAM: Scoreboard",
+                  "boxHeight": null,
+                  "showResourceName": {"showResourceName": true},
+                  "roundDecimals": null,
+                  "undefined": {"showMetricUnit": true},
+                  "mode": {"layoutMode": "fixedView"},
+                  "labelSize": 24,
+                  "metric": {
+                     "mode": "resource",
+                     "resourceMetrics": [
+                        {
+                           "yellowBound": "2",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:3_::_",
+                           "metricName": "Memory|Contention",
+                           "metricKey": "mem|host_contentionPct",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent R810-2",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Contention",
+                           "orangeBound": "4",
+                           "unit": "%",
+                           "redBound": "6",
+                           "id": "extModel4092-1",
+                           "colorMethod": 0
+                        },
+                        {
+                           "yellowBound": "70",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:3_::_",
+                           "metricName": "Memory|Workload",
+                           "metricKey": "mem|workload",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent R810-2",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Workload",
+                           "orangeBound": "80",
+                           "unit": "%",
+                           "redBound": "90",
+                           "id": "extModel4092-2",
+                           "colorMethod": 0
+                        }
+                     ],
+                     "resourceKindMetrics": []
+                  },
+                  "showSparkline": {"showSparkline": true},
+                  "boxColumns": 2,
+                  "periodLength": "lastHour",
+                  "selfProvider": {"selfProvider": true},
+                  "resInteractionMode": null
+               },
+               "height": 247
+            },
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 1,
+               "id": "5b811a19-188d-4580-9d89-40c814c8c003",
+               "type": "MetricChart",
+               "title": "CPU: Demand",
+               "config": {
+                  "resourceMetrics": [{
+                     "metricUnitId": "percent",
+                     "resourceId": "resource:id:3_::_",
+                     "unit": "%",
+                     "metricName": "CPU|Demand",
+                     "metricKey": "cpu|demandPct",
+                     "resourceName": "Compellent R810-2",
+                     "resourceKindId": "002006VMWAREClusterComputeResource",
+                     "id": "extModel3211-1",
+                     "colorMethod": 1
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "selfProvider": {"selfProvider": true},
+                  "title": "CPU: Demand",
+                  "resInteractionMode": null
+               },
+               "height": 294,
+               "states": [
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_yAxis_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_splitGraphs_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_stackedGraph_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D",
+                     "key": "permDateRange1_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_zoomTheView_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_showDataPointTips_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_showDataValues_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_pan_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_dynamicThresholds_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_showEntirePeriodDynamicThresholds_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_trendLine_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_limitYRangeToDt_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "o%3A",
+                     "key": "permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_metricGraph_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomByY_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_5b811a19-188d-4580-9d89-40c814c8c003"
+                  }
+               ]
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 1,
+               "id": "9c70cb34-4d20-46ca-a5cf-9d39bec3a122",
+               "type": "MetricChart",
+               "title": "RAM: Consumed",
+               "config": {
+                  "resourceMetrics": [{
+                     "metricUnitId": "kb",
+                     "resourceId": "resource:id:3_::_",
+                     "unit": "KB",
+                     "metricName": "Memory|Consumed",
+                     "metricKey": "mem|consumed_average",
+                     "resourceName": "Compellent R810-2",
+                     "resourceKindId": "002006VMWAREClusterComputeResource",
+                     "id": "extModel3445-1",
+                     "colorMethod": 1
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "selfProvider": {"selfProvider": true},
+                  "title": "RAM: Consumed",
+                  "resInteractionMode": null
+               },
+               "height": 294,
+               "states": [
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_splitGraphs_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_9c70cb34-4d20-46ca-a5cf-9d39bec3a122"
+                  },
+                  {
+                     "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D",
+                     "key": "permDateRange1_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_9c70cb34-4d20-46ca-a5cf-9d39bec3a122"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_pan_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_9c70cb34-4d20-46ca-a5cf-9d39bec3a122"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_9c70cb34-4d20-46ca-a5cf-9d39bec3a122"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_stackedGraph_permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_9c70cb34-4d20-46ca-a5cf-9d39bec3a122"
+                  },
+                  {
+                     "value": "o%3A",
+                     "key": "permMetricChart_widget_0723d49f-00f0-4fc2-9ead-22ac688899b3_9c70cb34-4d20-46ca-a5cf-9d39bec3a122"
+                  }
+               ]
+            },
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 3,
+               "id": "598c5acd-071e-4ce6-9a6a-72c7c765bf2a",
+               "type": "Heatmap",
+               "title": "Heatmap: CPU Demand Distribution",
+               "config": {
+                  "configs": [{
+                     "mode": {"mode": false},
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "tagFilter": {
+                        "path": ["/source/kind_resourceKind:id:0_::_/tag:resource:id:3_::_"],
+                        "value": {
+                           "bus": [],
+                           "adapterKind": [],
+                           "kind": [],
+                           "exclaim": false,
+                           "healthRange": [],
+                           "maintenanceSchedule": [],
+                           "adapterInstance": [],
+                           "collector": [],
+                           "tier": [],
+                           "state": [],
+                           "tag": [["resource:id:3_::_"]],
+                           "day": [],
+                           "status": []
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "cpu|demandPct",
+                        "value": "CPU|Demand"
+                     },
+                     "color": {
+                        "middleColor": "888800",
+                        "minValue": "0",
+                        "endColor": "FF0000",
+                        "maxValue": "85",
+                        "startColor": "00FF00"
+                     },
+                     "sizeBy": {
+                        "metricKey": "hardware|cpuInfo|num_CpuCores",
+                        "value": "Hardware|CPU Information|Number of CPUs"
+                     },
+                     "relationalGrouping": false,
+                     "name": "CPU: Demand Distribution",
+                     "groupBy": {
+                        "originalText": "",
+                        "typeId": "resourceKind:id:1_::_",
+                        "id": "004null002006VMWAREHostSystem",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "parentText": "vCenter Adapter",
+                        "parentId": "VMWARE"
+                     },
+                     "attributeKind": {"value": ""},
+                     "thenBy": null
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "title": "Heatmap: CPU Demand Distribution",
+                  "value": 0
+               },
+               "height": 300
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 3,
+               "id": "ca133495-defe-4924-94e6-3fe4068957f9",
+               "type": "Heatmap",
+               "title": "RAM: Demand Distribution",
+               "config": {
+                  "configs": [{
+                     "mode": {"mode": false},
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "tagFilter": {
+                        "path": ["/source/kind_resourceKind:id:0_::_/tag:resource:id:3_::_"],
+                        "value": {
+                           "bus": [],
+                           "adapterKind": [],
+                           "kind": [],
+                           "exclaim": false,
+                           "healthRange": [],
+                           "maintenanceSchedule": [],
+                           "adapterInstance": [],
+                           "collector": [],
+                           "tier": [],
+                           "state": [],
+                           "tag": [["resource:id:3_::_"]],
+                           "day": [],
+                           "status": []
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "mem|demand|object.demand.percent",
+                        "value": "Memory|Demand|Effective Demand"
+                     },
+                     "color": {
+                        "middleColor": "888800",
+                        "minValue": "0",
+                        "endColor": "FF0000",
+                        "maxValue": "85",
+                        "startColor": "00FF00"
+                     },
+                     "sizeBy": {
+                        "metricKey": "mem|demand|actual.capacity.normalized",
+                        "value": "Memory|Demand|Total Capacity"
+                     },
+                     "relationalGrouping": false,
+                     "name": "RAM: Demand Distribution",
+                     "groupBy": {
+                        "originalText": "",
+                        "typeId": "resourceKind:id:1_::_",
+                        "id": "004null002006VMWAREHostSystem",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "parentText": "vCenter Adapter",
+                        "parentId": "VMWARE"
+                     },
+                     "attributeKind": {"value": ""},
+                     "thenBy": null
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "title": "RAM: Demand Distribution",
+                  "value": 0
+               },
+               "height": 300
+            }
+         ],
+         "userId": "67309106-99e9-4323-abf9-70b4b92e4ba3",
+         "autoswitchDelay": 300,
+         "isDefault": false,
+         "name": "comScore cluster: R810-2",
+         "rank": 18,
+         "disabled": false,
+         "id": "0723d49f-00f0-4fc2-9ead-22ac688899b3",
+         "locked": false,
+         "widgetInteractions": []
+      },
+      {
+         "autoswitchTabId": "d2252769-1e48-46c8-9091-3d5199729aa3",
+         "shared": false,
+         "temporary": false,
+         "creationTime": 1444736641698,
+         "autoswitchEnabled": true,
+         "importAttempts": 1,
+         "columnProportion": "0.5-0.5",
+         "importComplete": true,
+         "columnCount": 2,
+         "widgets": [
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 2,
+               "id": "c6a1315f-6605-4fb3-b5b6-399562b78352",
+               "type": "Scoreboard",
+               "title": "CPU: Scoreboard",
+               "config": {
+                  "visualTheme": {"visualTheme": false},
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "valueSize": 48,
+                  "title": "CPU: Scoreboard",
+                  "boxHeight": null,
+                  "showResourceName": {"showResourceName": true},
+                  "roundDecimals": null,
+                  "undefined": {"showMetricUnit": true},
+                  "mode": {"layoutMode": "fixedView"},
+                  "labelSize": 24,
+                  "metric": {
+                     "mode": "resource",
+                     "resourceMetrics": [
+                        {
+                           "yellowBound": "2",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:4_::_",
+                           "metricName": "CPU|CPU Contention",
+                           "metricKey": "cpu|capacity_contentionPct",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent Environment",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Contention",
+                           "orangeBound": "4",
+                           "unit": "%",
+                           "redBound": "8",
+                           "id": "extModel5583-1",
+                           "colorMethod": 0
+                        },
+                        {
+                           "yellowBound": "70",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:4_::_",
+                           "metricName": "CPU|Workload",
+                           "metricKey": "cpu|workload",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent Environment",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Workload",
+                           "orangeBound": "80",
+                           "unit": "%",
+                           "redBound": "90",
+                           "id": "extModel5583-2",
+                           "colorMethod": 0
+                        }
+                     ],
+                     "resourceKindMetrics": []
+                  },
+                  "showSparkline": {"showSparkline": true},
+                  "boxColumns": 2,
+                  "periodLength": "lastHour",
+                  "selfProvider": {"selfProvider": true},
+                  "resInteractionMode": null
+               },
+               "height": 247
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 2,
+               "id": "85dc9117-4889-42c2-be07-01af7294b00f",
+               "type": "Scoreboard",
+               "title": "RAM: Scoreboard",
+               "config": {
+                  "visualTheme": {"visualTheme": false},
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "valueSize": 48,
+                  "title": "RAM: Scoreboard",
+                  "boxHeight": null,
+                  "showResourceName": {"showResourceName": true},
+                  "roundDecimals": null,
+                  "undefined": {"showMetricUnit": true},
+                  "mode": {"layoutMode": "fixedView"},
+                  "labelSize": 24,
+                  "metric": {
+                     "mode": "resource",
+                     "resourceMetrics": [
+                        {
+                           "yellowBound": "2",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:4_::_",
+                           "metricName": "Memory|Contention",
+                           "metricKey": "mem|host_contentionPct",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent Environment",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Contention",
+                           "orangeBound": "4",
+                           "unit": "%",
+                           "redBound": "8",
+                           "id": "extModel5959-1",
+                           "colorMethod": 0
+                        },
+                        {
+                           "yellowBound": "70",
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:4_::_",
+                           "metricName": "Memory|Workload",
+                           "metricKey": "mem|workload",
+                           "resourceKindName": "",
+                           "resourceName": "Compellent Environment",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "Workload",
+                           "orangeBound": "80",
+                           "unit": "%",
+                           "redBound": "90",
+                           "id": "extModel5959-2",
+                           "colorMethod": 0
+                        }
+                     ],
+                     "resourceKindMetrics": []
+                  },
+                  "showSparkline": {"showSparkline": true},
+                  "boxColumns": 2,
+                  "periodLength": "lastHour",
+                  "selfProvider": {"selfProvider": true},
+                  "resInteractionMode": null
+               },
+               "height": 247
+            },
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 1,
+               "id": "13650c3e-6dc8-4979-a3a8-eeca055c4120",
+               "type": "MetricChart",
+               "title": "CPU: Demand",
+               "config": {
+                  "resourceMetrics": [{
+                     "metricUnitId": "percent",
+                     "resourceId": "resource:id:4_::_",
+                     "unit": "%",
+                     "metricName": "CPU|Demand",
+                     "metricKey": "cpu|demandPct",
+                     "resourceName": "Compellent Environment",
+                     "resourceKindId": "002006VMWAREClusterComputeResource",
+                     "id": "extModel5078-1",
+                     "colorMethod": 1
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "selfProvider": {"selfProvider": true},
+                  "title": "CPU: Demand",
+                  "resInteractionMode": null
+               },
+               "height": 294,
+               "states": [
+                  {
+                     "value": "o%3A",
+                     "key": "permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_limitYRangeToDt_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_showEntirePeriodDynamicThresholds_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_showDataPointTips_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_trendLine_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_metricGraph_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_yAxis_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomByY_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_dynamicThresholds_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D",
+                     "key": "permDateRange1_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_zoomTheView_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_showDataValues_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_stackedGraph_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_splitGraphs_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_pan_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_13650c3e-6dc8-4979-a3a8-eeca055c4120"
+                  }
+               ]
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 1,
+               "id": "b00b2c95-ff7b-497c-afcc-905f697459d0",
+               "type": "MetricChart",
+               "title": "RAM: Consumed",
+               "config": {
+                  "resourceMetrics": [{
+                     "metricUnitId": "kb",
+                     "resourceId": "resource:id:4_::_",
+                     "unit": "KB",
+                     "metricName": "Memory|Consumed",
+                     "metricKey": "mem|consumed_average",
+                     "resourceName": "Compellent Environment",
+                     "resourceKindId": "002006VMWAREClusterComputeResource",
+                     "id": "extModel5312-1",
+                     "colorMethod": 1
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "selfProvider": {"selfProvider": true},
+                  "title": "RAM: Consumed",
+                  "resInteractionMode": null
+               },
+               "height": 294,
+               "states": [
+                  {
+                     "value": "o%3A",
+                     "key": "permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_b00b2c95-ff7b-497c-afcc-905f697459d0"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_b00b2c95-ff7b-497c-afcc-905f697459d0"
+                  },
+                  {
+                     "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D",
+                     "key": "permDateRange1_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_b00b2c95-ff7b-497c-afcc-905f697459d0"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_splitGraphs_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_b00b2c95-ff7b-497c-afcc-905f697459d0"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_stackedGraph_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_b00b2c95-ff7b-497c-afcc-905f697459d0"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_pan_permMetricChart_widget_3bffc2b2-368c-41b1-b96b-4721d7bb1309_b00b2c95-ff7b-497c-afcc-905f697459d0"
+                  }
+               ]
+            },
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 3,
+               "id": "04e70cba-8865-496a-b132-ffb82e14372f",
+               "type": "Heatmap",
+               "title": "Heatmap: CPU Demand Distribution",
+               "config": {
+                  "configs": [{
+                     "mode": {"mode": false},
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "tagFilter": {
+                        "path": ["/source/kind_resourceKind:id:0_::_/tag:resource:id:4_::_"],
+                        "value": {
+                           "bus": [],
+                           "adapterKind": [],
+                           "kind": [],
+                           "exclaim": false,
+                           "healthRange": [],
+                           "maintenanceSchedule": [],
+                           "adapterInstance": [],
+                           "collector": [],
+                           "tier": [],
+                           "state": [],
+                           "tag": [["resource:id:4_::_"]],
+                           "day": [],
+                           "status": []
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "cpu|demandPct",
+                        "value": "CPU|Demand"
+                     },
+                     "color": {
+                        "middleColor": "888800",
+                        "minValue": "0",
+                        "endColor": "FF0000",
+                        "maxValue": "85",
+                        "startColor": "00FF00"
+                     },
+                     "sizeBy": {
+                        "metricKey": "hardware|cpuInfo|num_CpuCores",
+                        "value": "Hardware|CPU Information|Number of CPUs"
+                     },
+                     "relationalGrouping": false,
+                     "name": "CPU: Demand Distribution",
+                     "groupBy": {
+                        "originalText": "",
+                        "typeId": "resourceKind:id:1_::_",
+                        "id": "004null002006VMWAREHostSystem",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "parentText": "vCenter Adapter",
+                        "parentId": "VMWARE"
+                     },
+                     "attributeKind": {"value": ""},
+                     "thenBy": null
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "title": "Heatmap: CPU Demand Distribution",
+                  "value": 0
+               },
+               "height": 300
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 3,
+               "id": "451dc4ac-dfe7-44e6-8c00-b1df5a68c490",
+               "type": "Heatmap",
+               "title": "RAM: Demand Distribution",
+               "config": {
+                  "configs": [{
+                     "mode": {"mode": false},
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "tagFilter": {
+                        "path": ["/source/kind_resourceKind:id:0_::_/tag:resource:id:4_::_"],
+                        "value": {
+                           "bus": [],
+                           "adapterKind": [],
+                           "kind": [],
+                           "exclaim": false,
+                           "healthRange": [],
+                           "maintenanceSchedule": [],
+                           "adapterInstance": [],
+                           "collector": [],
+                           "tier": [],
+                           "state": [],
+                           "tag": [["resource:id:4_::_"]],
+                           "day": [],
+                           "status": []
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "mem|demand|object.demand.percent",
+                        "value": "Memory|Demand|Effective Demand"
+                     },
+                     "color": {
+                        "middleColor": "888800",
+                        "minValue": "0",
+                        "endColor": "FF0000",
+                        "maxValue": "85",
+                        "startColor": "00FF00"
+                     },
+                     "sizeBy": {
+                        "metricKey": "mem|demand|actual.capacity.normalized",
+                        "value": "Memory|Demand|Total Capacity"
+                     },
+                     "relationalGrouping": false,
+                     "name": "RAM: Demand Distribution",
+                     "groupBy": {
+                        "originalText": "",
+                        "typeId": "resourceKind:id:1_::_",
+                        "id": "004null002006VMWAREHostSystem",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "parentText": "vCenter Adapter",
+                        "parentId": "VMWARE"
+                     },
+                     "attributeKind": {"value": ""},
+                     "thenBy": null
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "title": "RAM: Demand Distribution",
+                  "value": 0
+               },
+               "height": 300
+            }
+         ],
+         "userId": "67309106-99e9-4323-abf9-70b4b92e4ba3",
+         "autoswitchDelay": 300,
+         "isDefault": false,
+         "name": "comScore cluster: Environment",
+         "rank": 19,
+         "disabled": false,
+         "id": "3bffc2b2-368c-41b1-b96b-4721d7bb1309",
+         "locked": false,
+         "widgetInteractions": []
+      },
+      {
+         "autoswitchTabId": "f034202b-077b-4b87-b784-53ea158bed8a",
+         "shared": false,
+         "temporary": false,
+         "creationTime": 1447956189975,
+         "autoswitchEnabled": true,
+         "importAttempts": 0,
+         "columnProportion": "0.5-0.5",
+         "importComplete": true,
+         "description": "",
+         "columnCount": 1,
+         "widgets": [
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 2,
+               "id": "58933b16-3ba1-4add-bffd-17a2becae34f",
+               "type": "Scoreboard",
+               "title": "CPU: Scoreboard",
+               "config": {
+                  "visualTheme": {"visualTheme": false},
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "valueSize": 48,
+                  "title": "CPU: Scoreboard",
+                  "boxHeight": null,
+                  "showResourceName": {"showResourceName": true},
+                  "roundDecimals": null,
+                  "undefined": {"showMetricUnit": true},
+                  "mode": {"layoutMode": "fixedView"},
+                  "labelSize": 24,
+                  "metric": {
+                     "mode": "resource",
+                     "resourceMetrics": [
+                        {
+                           "yellowBound": 2,
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:5_::_",
+                           "metricName": "CPU|CPU Contention",
+                           "metricKey": "cpu|capacity_contentionPct",
+                           "resourceName": "Compellent UCS-3",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "",
+                           "orangeBound": 4,
+                           "unit": "%",
+                           "id": "extModel2509-1",
+                           "redBound": 6,
+                           "colorMethod": 0
+                        },
+                        {
+                           "yellowBound": 70,
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:5_::_",
+                           "metricName": "CPU|Workload",
+                           "metricKey": "cpu|workload",
+                           "resourceName": "Compellent UCS-3",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "",
+                           "orangeBound": 80,
+                           "unit": "%",
+                           "id": "extModel2509-2",
+                           "redBound": 90,
+                           "colorMethod": 0
+                        }
+                     ],
+                     "resourceKindMetrics": []
+                  },
+                  "showSparkline": {"showSparkline": true},
+                  "boxColumns": 2,
+                  "periodLength": "lastHour",
+                  "selfProvider": {"selfProvider": true},
+                  "resInteractionMode": null
+               },
+               "height": 247
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 2,
+               "id": "5a064103-5b61-476c-a26b-9c503131049b",
+               "type": "Scoreboard",
+               "title": "RAM: Scoreboard",
+               "config": {
+                  "visualTheme": {"visualTheme": false},
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "valueSize": 48,
+                  "title": "RAM: Scoreboard",
+                  "boxHeight": null,
+                  "showResourceName": {"showResourceName": true},
+                  "roundDecimals": null,
+                  "undefined": {"showMetricUnit": true},
+                  "mode": {"layoutMode": "fixedView"},
+                  "labelSize": 24,
+                  "metric": {
+                     "mode": "resource",
+                     "resourceMetrics": [
+                        {
+                           "yellowBound": 2,
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:5_::_",
+                           "metricName": "Memory|Contention",
+                           "metricKey": "mem|host_contentionPct",
+                           "resourceName": "Compellent UCS-3",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "",
+                           "orangeBound": 4,
+                           "unit": "%",
+                           "id": "extModel2912-1",
+                           "redBound": 6,
+                           "colorMethod": 0
+                        },
+                        {
+                           "yellowBound": 70,
+                           "metricUnitId": "percent",
+                           "resourceId": "resource:id:5_::_",
+                           "metricName": "Memory|Workload",
+                           "metricKey": "mem|workload",
+                           "resourceName": "Compellent UCS-3",
+                           "isStringMetric": false,
+                           "resourceKindId": "002006VMWAREClusterComputeResource",
+                           "label": "",
+                           "orangeBound": 80,
+                           "unit": "%",
+                           "id": "extModel2912-2",
+                           "redBound": 90,
+                           "colorMethod": 0
+                        }
+                     ],
+                     "resourceKindMetrics": []
+                  },
+                  "showSparkline": {"showSparkline": true},
+                  "boxColumns": 2,
+                  "periodLength": "lastHour",
+                  "selfProvider": {"selfProvider": true},
+                  "resInteractionMode": null
+               },
+               "height": 247
+            },
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 1,
+               "id": "fdfea3ea-0d1d-43a1-bc20-07593ab90b2c",
+               "type": "MetricChart",
+               "title": "CPU: Demand",
+               "config": {
+                  "resourceMetrics": [{
+                     "metricUnitId": "percent",
+                     "unit": "%",
+                     "resourceId": "resource:id:5_::_",
+                     "metricName": "CPU|Demand",
+                     "metricKey": "cpu|demandPct",
+                     "resourceName": "Compellent UCS-3",
+                     "resourceKindId": "002006VMWAREClusterComputeResource",
+                     "id": "extModel2236-1",
+                     "colorMethod": 1
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "selfProvider": {"selfProvider": true},
+                  "title": "CPU: Demand",
+                  "resInteractionMode": null
+               },
+               "height": 294,
+               "states": [
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_zoomTheView_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_pan_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "o%3A",
+                     "key": "permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D",
+                     "key": "permDateRange1_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_stackedGraph_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_splitGraphs_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_dynamicThresholds_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_showDataValues_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_metricGraph_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_yAxis_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_limitYRangeToDt_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomByY_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_trendLine_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_showEntirePeriodDynamicThresholds_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_showDataPointTips_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_fdfea3ea-0d1d-43a1-bc20-07593ab90b2c"
+                  }
+               ]
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 1,
+               "id": "e0ea6657-ff9e-413d-b084-d1ce80d96a26",
+               "type": "MetricChart",
+               "title": "RAM: Consumed",
+               "config": {
+                  "resourceMetrics": [{
+                     "metricUnitId": "kb",
+                     "unit": "KB",
+                     "resourceId": "resource:id:5_::_",
+                     "metricName": "Memory|Consumed",
+                     "metricKey": "mem|consumed_average",
+                     "resourceName": "Compellent UCS-3",
+                     "resourceKindId": "002006VMWAREClusterComputeResource",
+                     "id": "extModel3561-1",
+                     "colorMethod": 1
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "selfProvider": {"selfProvider": true},
+                  "title": "RAM: Consumed",
+                  "resInteractionMode": null
+               },
+               "height": 294,
+               "states": [
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_zoomAllGraphs_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_e0ea6657-ff9e-413d-b084-d1ce80d96a26"
+                  },
+                  {
+                     "value": "b%3A0",
+                     "key": "permBtn_pan_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_e0ea6657-ff9e-413d-b084-d1ce80d96a26"
+                  },
+                  {
+                     "value": "o%3A",
+                     "key": "permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_e0ea6657-ff9e-413d-b084-d1ce80d96a26"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_stackedGraph_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_e0ea6657-ff9e-413d-b084-d1ce80d96a26"
+                  },
+                  {
+                     "value": "b%3A1",
+                     "key": "permBtn_splitGraphs_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_e0ea6657-ff9e-413d-b084-d1ce80d96a26"
+                  },
+                  {
+                     "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D",
+                     "key": "permDateRange1_permMetricChart_widget_d2252769-1e48-46c8-9091-3d5199729aa3_e0ea6657-ff9e-413d-b084-d1ce80d96a26"
+                  }
+               ]
+            },
+            {
+               "collapsed": false,
+               "x": 1,
+               "y": 3,
+               "id": "b285f8c2-be5a-43f4-9515-0b8bc84c6777",
+               "type": "Heatmap",
+               "title": "Heatmap: CPU Demand Distribution",
+               "config": {
+                  "configs": [{
+                     "mode": {"mode": false},
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "tagFilter": {
+                        "path": ["/source/kind_resourceKind:id:0_::_/tag:resource:id:5_::_"],
+                        "value": {
+                           "bus": [],
+                           "adapterKind": [],
+                           "kind": [],
+                           "exclaim": false,
+                           "healthRange": [],
+                           "maintenanceSchedule": [],
+                           "adapterInstance": [],
+                           "collector": [],
+                           "tier": [],
+                           "state": [],
+                           "tag": [["resource:id:5_::_"]],
+                           "day": [],
+                           "status": []
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "cpu|demandPct",
+                        "value": "CPU|Demand"
+                     },
+                     "color": {
+                        "middleColor": "888800",
+                        "minValue": "0",
+                        "endColor": "FF0000",
+                        "maxValue": "85",
+                        "startColor": "00FF00"
+                     },
+                     "sizeBy": {
+                        "metricKey": "hardware|cpuInfo|num_CpuCores",
+                        "value": "Hardware|CPU Information|Number of CPUs"
+                     },
+                     "relationalGrouping": false,
+                     "name": "CPU: Demand Distribution",
+                     "groupBy": {
+                        "originalText": "",
+                        "typeId": "resourceKind:id:1_::_",
+                        "id": "004null002006VMWAREHostSystem",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "parentText": "vCenter Adapter",
+                        "parentId": "VMWARE"
+                     },
+                     "attributeKind": {"value": ""},
+                     "thenBy": null
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "title": "Heatmap: CPU Demand Distribution",
+                  "value": 0
+               },
+               "height": 300
+            },
+            {
+               "collapsed": false,
+               "x": 2,
+               "y": 3,
+               "id": "8f76055d-8c4c-4d63-81ea-b49f826d133c",
+               "type": "Heatmap",
+               "title": "RAM: Demand Distribution",
+               "config": {
+                  "configs": [{
+                     "mode": {"mode": false},
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "tagFilter": {
+                        "path": ["/source/kind_resourceKind:id:0_::_/tag:resource:id:5_::_"],
+                        "value": {
+                           "bus": [],
+                           "adapterKind": [],
+                           "kind": [],
+                           "exclaim": false,
+                           "healthRange": [],
+                           "maintenanceSchedule": [],
+                           "adapterInstance": [],
+                           "collector": [],
+                           "tier": [],
+                           "state": [],
+                           "tag": [["resource:id:5_::_"]],
+                           "day": [],
+                           "status": []
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "mem|demand|object.demand.percent",
+                        "value": "Memory|Demand|Effective Demand"
+                     },
+                     "color": {
+                        "middleColor": "888800",
+                        "minValue": "0",
+                        "endColor": "FF0000",
+                        "maxValue": "85",
+                        "startColor": "00FF00"
+                     },
+                     "sizeBy": {
+                        "metricKey": "mem|demand|actual.capacity.normalized",
+                        "value": "Memory|Demand|Total Capacity"
+                     },
+                     "relationalGrouping": false,
+                     "name": "RAM: Demand Distribution",
+                     "groupBy": {
+                        "originalText": "",
+                        "typeId": "resourceKind:id:1_::_",
+                        "id": "004null002006VMWAREHostSystem",
+                        "text": "Host System",
+                        "type": "resourceKind",
+                        "parentText": "vCenter Adapter",
+                        "parentId": "VMWARE"
+                     },
+                     "attributeKind": {"value": ""},
+                     "thenBy": null
+                  }],
+                  "refreshInterval": 150,
+                  "refreshContent": {"refreshContent": true},
+                  "title": "RAM: Demand Distribution",
+                  "value": 0
+               },
+               "height": 300
+            }
+         ],
+         "userId": "67309106-99e9-4323-abf9-70b4b92e4ba3",
+         "autoswitchDelay": 300,
+         "isDefault": false,
+         "name": "comScore: cluster UCS-3",
+         "rank": 20,
+         "disabled": false,
+         "id": "d2252769-1e48-46c8-9091-3d5199729aa3",
+         "locked": false,
+         "widgetInteractions": []
+      }
+   ],
+   "uuid": "0910e0ee-f726-4c4c-a09d-e517b021cb71"
+}
