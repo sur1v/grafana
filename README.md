@@ -14,4 +14,4 @@ After plugins reboot Jenkins and go to "Jenkins > Manage Jenkins > Configure Sys
 ------------------------------------------------------------------------
 VMware_vCenter_Performance_and_Health.json
 ------------------------------------------------------------------------
-This is a custom performance and health dashboard that will work with SexiGraf https://github.com/sexibytes/sexigraf appliance for active monitoring of vCenter, with multiple clusters support. The goal was provide real KPIs at glance, like CPU and RAM contention not abailable in the default dashboards. Now is calculated on the fly (based on refresh interval), in the same way that you can get the metric from vRealize Operations, but free ;)
+This is a custom performance and health dashboard that will work with SexiGraf https://github.com/sexibytes/sexigraf appliance for active monitoring of vCenter, with multiple clusters support. The goal was provide real KPIs at glance, like CPU and RAM contention not available in the default dashboards. Now is calculated on the fly (based on refresh interval), in the same way that you can get the metric from vRealize Operations, but free ;)
