@@ -1,5 +1,4 @@
-# grafana
-just a safe place to store my customs dashboards
+Grafana custom dashboards...
 
 ------------------------------------------------------------------------
 jenkins-performance-and-health-overview_rev1.json
@@ -13,6 +12,6 @@ Exposes the Jackson 2 API to other Jenkins plugins: https://wiki.jenkins-ci.org/
 After plugins reboot Jenkins and go to "Jenkins > Manage Jenkins > Configure System", make sure to define your Graphite hostname, port and for prefix use "jenkins" to make it work almost out of the box ;)
 
 ------------------------------------------------------------------------
-*** VMware_vCenter_Performance_and_Health.json
+VMware_vCenter_Performance_and_Health.json
 ------------------------------------------------------------------------
 This is a custom performance and health dashboard that will work with SexiGraf https://github.com/sexibytes/sexigraf appliance for active monitoring of vCenter, with multiple clusters support. The goal was provide real KPIs at glance, like CPU and RAM contention not abailable in the default dashboards. Now is calculated on the fly (based on refresh interval), in the same way that you can get the metric from vRealize Operations, but free ;)
